@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FirstCode</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="author" content="The Chopping Block, Inc." />
+	<meta name="geo.country" content="US" />
+	<meta name="dc.language" content="en" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	
+	<link rel="stylesheet" href="styles.css" type="text/css" media="screen" charset="utf-8" />
+	
+	<style type="text/css" media="screen">		
+		/*local styles if any (quick tests and local only overrides)*/
+	</style>
+</head>
+<body>
+
+	<div class="wrap"
+		Project: FirstCode
+		<ul>
+			<li>Display the prompt</li>
+			<li>Take the value from the prompt and display on the screen</li>
+		</ul>
+		<p id="paragraph" class="">  </p> <!-- / -->
+	</div>
+	<
+	<script type="text/javascript" charset="utf-8">
+		
+		
+		//Going to need to use
+		// prompt("Helper Text");
+		// Assign to a variable
+		// Display to the screen, using
+		// document.getElementById("paragraph").innerHTML = variable;
+		
+
+var color = prompt("Enter Your favorite color");
+var region = prompt("Enter Your birthday");
+var flower = prompt("Enter Your favorite flower");
+var metal = prompt("gold or silver");
+var number = prompt("my lucky number 1 - 3")	
+
+document.getElementById("paragraph").innerHTML = "My favorite color " + color + " On my special day " + region + " turns the " + flower + " into " + metal;
+
+if(number == 2){ 
+			document.getElementById("paragraph").innerHTML = "My favorite color " + color + " On my special day " + region + " turns the " + flower + " into " + metal;
+		}if(number == 1){document.getElementById("paragraph").innerHTML = "The ugliest color " + color + " On the worst day " + region + " melts the " + flower + " into " + metal;}
+		else{
+			document.getElementById("paragraph").innerHTML = "The blinding color " + color + " On the hottest day " + region + " enflames the " + flower + " into " + metal;
+		}
+
+		
+	</script>
+	
+	
+</body>

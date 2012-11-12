@@ -74,17 +74,15 @@
 		}
 
 		//This is a list (an array)
-		var taskList = document.querySelectorAll("li");
+		var taskList = $("li");
 		//When we want to do something to each item in the list, we use a for loop
 		//First piece is the counter
 		//Second piece is the condition
 		//Third piece is the iterator
-		for (var i=0; i < taskList.length; i++) {
-			//This is accessing a specific element in that list
-
-			taskList[i].addEventListener("click", complete, false);
-			
-			// taskList[i].addEventListener("click", function(e){ e.target.classList.toggle("completed"); }, false);			
+		
+		$(this)= taskList
+		
+		// taskList[i].addEventListener("click", function(e){ e.target.classList.toggle("completed"); }, false);			
 		};
 
 		
